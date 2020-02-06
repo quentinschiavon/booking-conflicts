@@ -4,12 +4,10 @@
  */
 
 // import data
-const bookings = require('./data/bookings');
+const bookings = require("./data/bookings");
 
 //imports
-const { findConflictIntervals} = require('./src/conflicts')
-
-
+const { findConflictIntervals } = require("./src/conflicts");
 
 let res = findConflictIntervals(bookings);
-console.log(res)
+console.log(res);
