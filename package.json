@@ -1,0 +1,18 @@
+{
+  "name": "mclarentest",
+  "version": "1.0.0",
+  "description": "application to detect booking conflicts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "author": "Quentin Schiavon",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "nodemon": "^2.0.2"
+  }
+}
